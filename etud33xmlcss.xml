@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style33.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo/>
+      <nom><label>Nom :</label> Aslem Khalfaoui</nom>
+      <id><label>ID :</label> 11558288</id>
+      <niveau><label>Niveau :</label> 3</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> En 3ème année IDSD, je suis passionné par les technologies de l’IA et de la data. Mon objectif : transformer des données complexes en leviers d’innovation stratégique.</description>
+
+      <titre1>Informations générales :</titre1>
+      <sexe><label>Sexe :</label> Masculin</sexe> 
+      <cin><label>CIN :</label> 00000000</cin> <!-- CIN fictif à remplacer -->
+      <nationalite><label>Nationalité :</label> Tunisienne</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Sfax</villenaissance>
+
+      <titre2>Informations de localisation :</titre2>
+      <ville><label>Ville :</label> Sfax</ville>
+      <adresse><label>Adresse Postale :</label> Sfax</adresse>
+      <codepostal><label>Code Postal :</label> 3000</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> aslem.khalfaoui@gmail.com</email> <!-- Email fictif ajouté -->
+      <telephone><label>Téléphone :</label> 50000001</telephone> <!-- Téléphone fictif ajouté -->
+      <moyenne><label>Moyenne :</label> 12.52</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Statistique décisionnelle et ré-échantillonnage</td><td>13.25</td></tr>
+        <tr><td>Analyse Multivariée</td><td>10</td></tr>
+        <tr><td>Modèles statistiques dynamiques à variables cachées</td><td>9.5</td></tr>
+        <tr><td>Test et validation logiciel</td><td>13.25</td></tr>
+        <tr><td>Analyse de données en temps réel</td><td>11.75</td></tr>
+        <tr><td>Cybersécurité et Blockchain</td><td>10.75</td></tr>
+        <tr><td>Architecture et programmation parallèle</td><td>14.5</td></tr>
+        <tr><td>Spark et préparation à la certification au Big Data</td><td>13.25</td></tr>
+        <tr><td>MLOps</td><td>12.24</td></tr>
+        <tr><td>Analyse et fouille de données</td><td>12.5</td></tr>
+        <tr><td>Atelier avancé SD</td><td>11.5</td></tr>
+        <tr><td>Entrepeneuriat et Business Model</td><td>12.25</td></tr>
+        <tr><td>Certification TOEIC C1</td><td>15</td></tr>
+        <tr><td>Technique de communication professionnelle</td><td>15.75</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

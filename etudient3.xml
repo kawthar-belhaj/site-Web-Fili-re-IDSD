@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Etudiant SYSTEM "etudiant.dtd">
+<Etudiant>
+	<Photo type="image/png">"C:\Users\LENOVO\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\xml\3emeetud.png"</Photo>
+	<Nom>ali mahjoub </Nom>
+	<Id>13589745</Id>
+	<Description>Futur ingénieur en IDSD, motivé par l’exploitation des données massives, l’intelligence artificielle et l’optimisation des systèmes décisionnels dans des environnements complexes.</Description>
+	<Niveau>1</Niveau>
+	<Moyen>12.86</Moyen>
+	<Notes>
+		<Note>
+			<Matiere>Mathématiques de l’ingénieur</Matiere>
+			<Valeur>10.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Statistiques descriptives et inférentielles</Matiere>
+			<Valeur>15.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Mesures et probabilités</Matiere>
+			<Valeur>10</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Théorie des graphes </Matiere>
+			<Valeur>7</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Calcul différentiel et optimisation</Matiere>
+			<Valeur>11</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Algorithmique et programmation C</Matiere>
+			<Valeur>10.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Commande et administration Linux</Matiere>
+			<Valeur>13</Valeur>
+		</Note>
+		<Note>
+			<Matiere>SGBD</Matiere>
+			<Valeur>11.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Réseaux informatiques et TCP/IP</Matiere>
+			<Valeur>17.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Atelier Python</Matiere>
+			<Valeur>12</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Droit du travail et Sécurité sociale</Matiere>
+			<Valeur>13.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Certification TOEIC B1.1</Matiere>
+			<Valeur>8</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Technique de communication et préparation au Delf B2.1</Matiere>
+			<Valeur>10</Valeur>
+		</Note>
+	</Notes>
+</Etudiant>

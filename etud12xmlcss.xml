@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style12.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo />
+      <nom><label>Nom :</label> Maha Ben Salah</nom>
+      <id><label>ID :</label> 0007711</id>
+      <niveau><label>Niveau :</label> 1</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Étudiant en ingénierie des données, orienté vers l’innovation, l’analyse intelligente et le développement de solutions data-driven à fort impact.</description>
+
+      <titre1>Informations générales :</titre1> 
+      <sexe><label>Sexe :</label> féminin</sexe>
+      <cin><label>CIN :</label> 11452521</cin>
+      <nationalite><label>Nationalité :</label> Tunisienne</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Sfax</villenaissance>
+
+      <titre2>Informations de localisation :</titre2> 
+      <ville><label>Ville :</label> Sfax</ville>
+      <adresse><label>Adresse Postale :</label> Route ain Km 2.5</adresse>
+      <codepostal><label>Code Postal :</label> 5487</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> maha.bensalah@gmail.com</email>
+      <telephone><label>Téléphone :</label> 95685265</telephone>
+      <moyenne><label>Moyenne :</label> 10.25</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Mathématiques de l’ingénieur</td><td>10.5</td></tr>
+        <tr><td>Statistiques descriptives et inférentielles</td><td>15.75</td></tr>
+        <tr><td>Mesures et probabilités</td><td>10</td></tr>
+        <tr><td>Théorie des graphes</td><td>7</td></tr>
+        <tr><td>Calcul différentiel et optimisation</td><td>11</td></tr>
+        <tr><td>Algorithmique et programmation C</td><td>10.5</td></tr>
+        <tr><td>Commande et administration Linux</td><td>8</td></tr>
+        <tr><td>SGBD</td><td>11.5</td></tr>
+        <tr><td>Réseaux informatiques et TCP/IP</td><td>15.5</td></tr>
+        <tr><td>Atelier Python</td><td>12</td></tr>
+        <tr><td>Droit du travail et Sécurité sociale</td><td>13.5</td></tr>
+        <tr><td>Certification TOEIC B1</td><td>8</td></tr>
+        <tr><td>Technique de communication et préparation au Delf B2.1</td><td>10</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Etudiant SYSTEM "etudiant.dtd">
+<Etudiant>
+	<Photo type="image/png">"C:\Users\LENOVO\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\xml\2emeetud3.png"</Photo>
+	<Nom>jana yousfi</Nom>
+	<Id>11658912</Id>
+	<Description>Étudiant en 3ème année IDSD, je développe des solutions data-driven en combinant l’algorithmique, les bases de données, le cloud et les techniques d’aide à la décision.</Description>
+	<Niveau>3</Niveau>
+	<Moyen>15.71</Moyen>
+	<Notes>
+		<Note>
+			<Matiere>Statistique décisionnelle et ré-échantillonnage</Matiere>
+			<Valeur>17.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse Multivariée</Matiere>
+			<Valeur>13</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Modèles statistiques dynamiques à variables cachées </Matiere>
+			<Valeur>12.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Test et validation logiciel</Matiere>
+			<Valeur>14.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse de données en temps réel</Matiere>
+			<Valeur>18.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Cybersécurité et BlockchainL</Matiere>
+			<Valeur>12.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Architecture et programmation parallèle </Matiere>
+			<Valeur>14.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Spark et préparation à la certification au Big data  </Matiere>
+			<Valeur>15.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere> MLOps </Matiere>
+            <Valeur>15.24</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse et fouille de données </Matiere>
+			<Valeur>12.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Atelier avancé SD</Matiere>
+			<Valeur>11</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Entrepeneuriat et Business Model</Matiere>
+			<Valeur>14.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Certification TOEIC C1</Matiere>
+			<Valeur>18</Valeur>
+		</Note>
+        <Note>
+			<Matiere> Technique de communication professionnelle</Matiere>
+			<Valeur>15.75</Valeur>
+		</Note>
+	</Notes>
+</Etudiant>

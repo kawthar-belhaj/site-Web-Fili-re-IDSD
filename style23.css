@@ -1,0 +1,169 @@
+page {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bande Profil Étudiant */
+header {
+  width: 100%;
+  background-color: #e67e22;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Zone principale de l'étudiant */
+etudiant {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* Partie informations personnelles */
+information_personnel {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Photo de profil */
+photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  background-image: url('3emeetud2.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Détails personnels */
+information_personnel > *:not(titre1):not(titre2):not(titre3):not(photo) {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Label en gras */
+information_personnel label {
+  font-weight: bold;
+}
+
+/* Titres */
+information_personnel > titre1,
+information_personnel > titre2,
+information_personnel > titre3 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+}
+
+/* Partie notes */
+notes {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  max-height: 90vh;
+  padding: 20px;
+}
+
+/* Tableau des notes */
+notes table {
+  width: 100%;
+  border-collapse: collapse;
+  display: table;
+}
+
+notes table tr {
+  display: table-row;
+}
+
+notes table th, notes table td {
+  display: table-cell;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Entête du tableau */
+notes table th {
+  background: #e67e22;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Couleur lignes alternées */
+notes table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+notes table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Effet survol */
+notes table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Scrollbar personnalisée pour notes */
+notes::-webkit-scrollbar {
+  width: 8px;
+}
+
+notes::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+mention {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #27ae60;
+  border-radius: 10px;
+  text-align: center;
+}
+
+notes_inferieures {
+  margin-top: 20px;
+  background-color: #ffe0e0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+notes_inferieures titre {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+notes_inferieures matiere {
+  display: block;
+  margin: 5px 0;
+  color: #c0392b;
+  font-size: 16px;
+}

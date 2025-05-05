@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style23.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo />
+      <nom><label>Nom :</label> Ahlem Selmi</nom>
+      <id><label>ID :</label> 11658978</id>
+      <niveau><label>Niveau :</label> 2</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Étudiant en 2ème année IDSD, passionné par la transformation des données en solutions concrètes. Je m’oriente vers les métiers de la data science et de l’ingénierie décisionnelle.</description>
+
+      <titre1>Informations générales :</titre1> 
+      <sexe><label>Sexe :</label> Féminin</sexe>
+      <cin><label>CIN :</label> 11258963</cin>
+      <nationalite><label>Nationalité :</label> Tunisienne</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Tunis</villenaissance>
+
+      <titre2>Informations de localisation :</titre2> 
+      <ville><label>Ville :</label> Rades</ville>
+      <adresse><label>Adresse Postale :</label> Tunis</adresse>
+      <codepostal><label>Code Postal :</label> 4011</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> AHLEM.selmi@gmail.com</email>
+      <telephone><label>Téléphone :</label> 24526289</telephone>
+      <moyenne><label>Moyenne :</label> 11.12</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Heureustique et métaheuristique</td><td>10.5</td></tr>
+        <tr><td>Statistiques non paramétriques</td><td>12</td></tr>
+        <tr><td>Machine Learning</td><td>8</td></tr>
+        <tr><td>Data Wrangling</td><td>11.25</td></tr>
+        <tr><td>Méthodologie et conception orientée objet</td><td>9.75</td></tr>
+        <tr><td>Base de données NoSQL</td><td>13.25</td></tr>
+        <tr><td>Traitement d'images et de vidéos</td><td>10.25</td></tr>
+        <tr><td>Fondements de la sécurité</td><td>7.25</td></tr>
+        <tr><td>JAVA avancé</td><td>-</td></tr>
+        <tr><td>Développement Web dynamique</td><td>12.5</td></tr>
+        <tr><td>Scrum et Leadership</td><td>13.75</td></tr>
+        <tr><td>Certification TOEIC B2.1</td><td>11.75</td></tr>
+        <tr><td>Technique de communication et préparation au Delf Pro 1</td><td>13</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>
+

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingénierie des Données et Systèmes Décisionnels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e67e22;
+            padding: 20px;
+            color: white;
+            flex-wrap: wrap;
+        }
+
+        .header img {
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .photo {
+    		width: 100%;
+    		height: 100%;
+    		display: block;
+    		margin: 20px auto;
+    		transition: transform 0.3s ease;
+    		border-radius: 12px;
+    		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    		object-fit: cover; /* Pour que l'image couvre toute la section sans déformation */
+}
+
+
+        .photo:hover {
+            transform: scale(1.05);
+        }
+
+        nav {
+            background-color: #d0beb0;
+            padding: 10px;
+        }
+
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            transition: color 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #e67e22;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #df760d;
+            border-bottom: 3px dotted #df760d;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ol li strong {
+            color: #0d47a1;
+        }
+
+        ol li::marker {
+            color: #0d47a1;
+            font-weight: bold;
+        }
+
+        p strong {
+            color: #0d47a1;
+        }
+
+        ul {
+            padding-left: 30px;
+            list-style-type: square;
+        }
+
+        .niveau-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding: 20px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .niveau-container a img {
+            width: 150px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .niveau-container a img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(70, 67, 67, 0.2);
+        }
+
+        p img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            animation: pulse 2s infinite;
+        }
+
+        footer img {
+            width: 20px;
+            height: 20px;
+            object-fit: cover;
+        }
+
+        footer a {
+            background-color: #d0beb0;
+            padding: 10px;
+        }
+
+
+        
+        footer a:hover {
+            color: #e67e22;
+        }
+        .footer {
+            background-color: #d0cdca;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .footer-left {
+            flex: 0 0 40%;
+            padding: 20px;
+        }
+
+        .contact-info {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        .contact-info td {
+            padding: 8px;
+        }
+
+        .contact-info a {
+            color: #0d47a1;
+            text-decoration: none;
+        }
+
+        .footer-right {
+            flex: 0 0 60%;
+            padding: 20px;
+        } 
+
+        .footer-links {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+        }   
+
+        .footer-links td {
+            vertical-align: top;
+            padding: 20px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links a {
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: #0d47a1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="logo">
+        <img src="cti.png" alt="cti">
+        <img src="eur.png" alt="eur">
+        <img src="universite.png" alt="universite">
+        <h1>Ingénierie des Données et Systèmes Décisionnels</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="inscrip.html">Inscription</a></li>
+            <li><a href="#bas">À propos</a></li>
+            <li><a href="#bas">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <img src="photo.png" alt="grand" class="photo">
+    </section>
+
+    <section>
+        <h2>Description : </h2>
+        <p>La filière Ingénierie des Données et Systèmes Décisionnels (IDSD) vise à répondre aux besoins croissants des entreprises évoluant dans le domaine des données. Elle offre une formation approfondie sur les technologies de pointe en sciences des données et en informatique décisionnelle.
+
+        Ce cursus combine modélisation mathématique et statistique, informatique, visualisation et applications, avec pour ambition de transformer les données brutes en connaissances exploitables. Cette transition, essentielle pour l’aide à la décision, soulève de nombreux défis nécessitant une approche interdisciplinaire.
+
+        La formation s’appuie sur l’analyse statistique des données (exploration, statistiques inférentielles, apprentissage automatique, etc.), sur la maîtrise de divers langages et outils informatiques (R, Python, Scala, Java, C, etc.), ainsi que sur les techniques de visualisation et d’aide à la décision. En intégrant des enseignements en lien avec les dernières avancées technologiques, notamment en intelligence artificielle et technologies de l’information, elle garantit une veille permanente et une adaptation aux évolutions du secteur.</p>
+    </section>
+
+	<section>
+		<h2>Bilan des effectifs :</h2>
+		<table style="width: 100%; border-collapse: collapse;">
+			<tr>
+				<td style="padding: 10px; vertical-align: middle;">
+					<img src="pngegg.png" alt="étudiants" style="width: 30px; vertical-align: middle;">
+					<strong>Étudiants :</strong> 1,300
+				</td>
+				<td style="padding: 10px; vertical-align: middle;">
+					<img src="pngegg (2).png" alt="enseignants" style="width: 30px; vertical-align: middle;">
+					<strong>Enseignants :</strong> 129
+				</td>
+				<td style="padding: 10px; vertical-align: middle;">
+					<img src="pngegg (3).png" alt="Structures de recherche" style="width: 30px; vertical-align: middle;">
+					<strong>Structures de recherche :</strong> 3
+				</td>
+			</tr>
+			<tr>
+				<td style="padding: 10px; vertical-align: middle;">
+					<img src="partenaire.png" alt="Partenaires" style="width: 30px; vertical-align: middle;">
+					<strong>Partenaires :</strong> 1,717
+				</td>
+				<td style="padding: 10px; vertical-align: middle;">
+					<img src="pngegg (1).png" alt="Books" style="width: 30px; vertical-align: middle;">
+					<strong>Books :</strong> 1,717
+				</td>
+				<td></td>
+			</tr>
+		</table>
+	</section>
+	
+	
+
+    <section>
+        <h2>Description des métiers ciblés : </h2>
+        <ol>
+            <li><strong>Data Analyst : </strong></li>
+            <ul>
+                <li>Collecte et analyse les données pour aider à la prise de décisions stratégiques. Utilise des outils comme SQL et Excel.</li>
+                <li>Compétences : SQL, Excel, analyse de données.</li>
+            </ul>
+            <li><strong>Data Scientist : </strong></li>
+            <ul>
+                <li>Utilise des modèles de machine learning et des statistiques avancées pour analyser de grandes quantités de données.</li>
+                <li>Compétences : Python, R, machine learning.</li>
+            </ul>
+            <li><strong>Data Engineer : </strong></li>
+            <ul>
+                <li>Construit et optimise des systèmes pour collecter, stocker et traiter des données massives.</li>
+                <li>Compétences : Hadoop, Spark, SQL.</li>
+            </ul>
+            <li><strong>Chief Data Officer (CDO) : </strong></li>
+            <ul>
+                <li>Responsable de la gouvernance et de la stratégie des données au sein de l'entreprise.</li>
+                <li>Compétences : gestion de projets, gouvernance des données.</li>
+            </ul>
+            <li><strong>Machine Learning Engineer : </strong></li>
+            <ul>
+                <li>Conçoit et met en œuvre des algorithmes de machine learning pour des applications pratiques.</li>
+                <li>Compétences : Python, machine learning, algorithmes.</li>
+            </ul>
+            <li><strong>Data Manager : </strong></li>
+            <ul>
+                <li>Gère les flux de données, assure leur qualité et leur accessibilité pour l'entreprise.</li>
+                <li>Compétences : gestion de données, qualité des données.</li>
+            </ul>
+        </ol>
+    </section>
+    <section id="plan">
+        <h2>Plan d'étude</h2>
+        <p>Voici le plan d'étude pour votre parcours :</p>
+        <a href="ton_fichier_plan.pdf" download>Télécharger le fichier PDF</a>
+    </section>
+    
+
+    </section>
+
+    <section class="niveaux">
+        <h2>Niveau :</h2>
+        <div class="niveau-container">
+            <a href="tab1.html"><img src="photo001.png" alt="1ère année"></a>
+            <a href="tab2.html"><img src="photo2.png" alt="2ème année"></a>
+            <a href="tab3.html"><img src="photo3.png" alt="3ème année"></a>
+        </div>
+    </section>
+    <footer class="footer" id ="bas">
+        <div class="footer-container">
+            <h2>A propos</h2>
+            <table class="contact-info">
+              <tr>
+                <td>Route de Tunis, cité el Ons, Technopôle de Sfax - 3018 Sfax</td>
+              </tr>
+              <tr>
+                <td>Téléphone : 74 863 047 / 74 862 500 | Fax : 74 863 037</td>
+              </tr>
+              <tr>
+                <td>Email : <a href="mailto:contact@enetcom.rnu.tn">contact@enetcom.rnu.tn</a></td>
+              </tr>
+            </table>
+          </div>
+      
+        </div>
+        &copy; 2025 Ingénierie des Données et Systèmes Décisionnels. Tous droits réservés.
+		<img src="fb.png" alt ="logo"><a href ="https://www.facebook.com/groups/513101505420982">facebook</a>
+		<img src="insta.png" alt="logo"><a href="https://www.instagram.com/enetcom_sfax">Instagram</a>|
+		<img src="email.png" alt="logo"><a href="mailto:contact@enetcom.rnu.tn">Email</a>
+      </footer>
+      
+      
+
+   
+      
+      
+</body>
+</html>

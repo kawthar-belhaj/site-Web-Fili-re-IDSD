@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Résultats des Étudiants</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #fffaf0, #ffe4c4);
+      color: #4a2903;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      color: #d46b00;
+      font-size: 2rem;
+    }
+
+    #resultats {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      border-left: 6px solid #ffa54f;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(255, 140, 0, 0.2);
+      padding: 20px 25px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card strong {
+      color: #a34d00;
+    }
+
+    .matiere {
+      display: block;
+      margin-left: 20px;
+      color: #5a3200;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      .card {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Résultats des Étudiants Classés par Moyenne</h1>
+  <div id="resultats"></div>
+
+  <script>
+    const xmlString = `<?xml version="1.0" encoding="UTF-8"?>
+      <page>
+        <etudiant>
+          <information_personnel>
+            <nom>Maha Ben Salah</nom>
+            <moyenne>10.25</moyenne>
+          </information_personnel>
+          <notes>
+            <table>
+              <tr><td>Mathématiques de l’ingénieur</td><td>10.5</td></tr>
+              <tr><td>Statistiques descriptives et inférentielles</td><td>15.75</td></tr>
+              <tr><td>Mesures et probabilités</td><td>10</td></tr>
+              <tr><td>Théorie des graphes</td><td>7</td></tr>
+              <tr><td>Calcul différentiel et optimisation</td><td>11</td></tr>
+              <tr><td>Algorithmique et programmation C</td><td>10.5</td></tr>
+              <tr><td>Commande et administration Linux</td><td>8</td></tr>
+              <tr><td>SGBD</td><td>11.5</td></tr>
+              <tr><td>Réseaux informatiques et TCP/IP</td><td>15.5</td></tr>
+              <tr><td>Atelier Python</td><td>12</td></tr>
+              <tr><td>Droit du travail et Sécurité sociale</td><td>13.5</td></tr>
+              <tr><td>Certification TOEIC B1</td><td>8</td></tr>
+              <tr><td>Technique de communication et préparation au Delf B2.1</td><td>10</td></tr>
+            </table>
+          </notes>
+        </etudiant>
+        <etudiant>
+          <information_personnel>
+            <nom>Ali</nom>
+            <moyenne>8.5</moyenne>
+          </information_personnel>
+          <notes>
+            <table>
+              <tr><td>Mathématiques de l’ingénieur</td><td>8</td></tr>
+              <tr><td>Théorie des graphes</td><td>7</td></tr>
+              <tr><td>SGBD</td><td>6</td></tr>
+            </table>
+          </notes>
+        </etudiant>
+        <etudiant>
+          <information_personnel>
+            <nom>Ahmed Ben Salem</nom>
+            <moyenne>15.46</moyenne>
+          </information_personnel>
+          <notes>
+            <table>
+              <tr><td>Mathématiques de l’ingénieur</td><td>15.5</td></tr>
+              <tr><td>Statistiques descriptives et inférentielles</td><td>17</td></tr>
+              <tr><td>Mesures et probabilités</td><td>13</td></tr>
+              <tr><td>Théorie des graphes</td><td>16</td></tr>
+              <tr><td>Calcul différentiel et optimisation</td><td>17</td></tr>
+              <tr><td>Algorithmique et programmation C</td><td>14</td></tr>
+              <tr><td>Commande et administration Linux</td><td>15</td></tr>
+              <tr><td>SGBD</td><td>16</td></tr>
+              <tr><td>Réseaux informatiques et TCP/IP</td><td>17.5</td></tr>
+              <tr><td>Atelier Python</td><td>18</td></tr>
+              <tr><td>Droit du travail et Sécurité sociale</td><td>13</td></tr>
+              <tr><td>Certification TOEIC B1</td><td>17</td></tr>
+              <tr><td>Technique de communication et préparation au Delf B2.1</td><td>15</td></tr>
+            </table>
+          </notes>
+        </etudiant>
+      </page>`;
+
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlString, "application/xml");
+
+    function afficherResultats() {
+      const etudiants = xmlDoc.evaluate('//etudiant', xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+      let etudiantsList = [];
+
+      for (let i = 0; i < etudiants.snapshotLength; i++) {
+        const etudiant = etudiants.snapshotItem(i);
+        const nom = etudiant.querySelector("information_personnel > nom").textContent;
+        const moyenne = parseFloat(etudiant.querySelector("information_personnel > moyenne").textContent);
+        const notes = etudiant.querySelectorAll("notes > table > tr");
+
+        let matieresInf10 = [];
+
+        notes.forEach(note => {
+          const matiere = note.querySelectorAll("td")[0].textContent;
+          const noteValue = parseFloat(note.querySelectorAll("td")[1].textContent);
+          if (noteValue < 10) {
+            matieresInf10.push(`<span class="matiere">${matiere} (Note: ${noteValue})</span>`);
+          }
+        });
+
+        etudiantsList.push({
+          nom: nom,
+          moyenne: moyenne,
+          matieresInf10: matieresInf10
+        });
+      }
+
+      // Tri décroissant
+      etudiantsList.sort((a, b) => b.moyenne - a.moyenne);
+
+      let html = "";
+      etudiantsList.forEach(e => {
+        html += `
+          <div class="card">
+            <p><strong>Nom :</strong> ${e.nom}</p>
+            <p><strong>Moyenne :</strong> ${e.moyenne}</p>
+            <p><strong>Matières avec note < 10 :</strong> ${e.matieresInf10.length ? e.matieresInf10.join("") : "Aucune"}</p>
+          </div>
+        `;
+      });
+
+      document.getElementById("resultats").innerHTML = html;
+    }
+
+    afficherResultats();
+  </script>
+</body>
+</html>

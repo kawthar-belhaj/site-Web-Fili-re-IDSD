@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo />
+
+      <nom><label>Nom :</label> Ali Mahjoub</nom>
+      <id><label>Id :</label> 13589745</id>
+      <niveau><label>Niveau :</label> 1</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Futur ingénieur en IDSD, motivé par l’exploitation des données massives, l’intelligence artificielle et l’optimisation des systèmes décisionnels dans des environnements complexes.</description>
+
+      <titre1>Informations générales :</titre1> 
+      <sexe><label>Sexe :</label> masculin</sexe>
+      <cin><label>CIN :</label> 11456874</cin>
+      <nationalite><label>Nationalité :</label> Tunisien</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Sfax</villenaissance>
+
+      <titre2>Informations de localisation :</titre2> 
+      <ville><label>Ville :</label> Sfax</ville>
+      <adresse><label>Adresse :</label> Route gremda Km 0.5</adresse>
+      <codepostal><label>Code Postal :</label> 1011</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> ali.mahjoub@gmail.com</email>
+      <telephone><label>Téléphone :</label> 27564892</telephone>
+      <moyenne><label>Moyenne :</label> 12.86</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr><th>Matière</th><th>Note</th></tr>
+        <tr><td>Mathématiques de l’ingénieur</td><td>10.5</td></tr>
+        <tr><td>Statistiques descriptives et inférentielles</td><td>15.75</td></tr>
+        <tr><td>Mesures et probabilités</td><td>10</td></tr>
+        <tr><td>Théorie des graphes</td><td>7</td></tr>
+        <tr><td>Calcul différentiel et optimisation</td><td>11</td></tr>
+        <tr><td>Algorithmique et programmation C</td><td>10.5</td></tr>
+        <tr><td>Commande et administration Linux</td><td>13</td></tr>
+        <tr><td>SGBD</td><td>11.5</td></tr>
+        <tr><td>Réseaux informatiques et TCP/IP</td><td>17.5</td></tr>
+        <tr><td>Atelier Python</td><td>12</td></tr>
+        <tr><td>Droit du travail et Sécurité sociale</td><td>13.5</td></tr>
+        <tr><td>Certification TOEIC B1</td><td>8</td></tr>
+        <tr><td>Technique de communication au Delf B2.1</td><td>9</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

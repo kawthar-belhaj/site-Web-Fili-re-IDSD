@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Etudiant SYSTEM "etudiant.dtd">
+<Etudiant>
+	<Photo type="image/png">"C:\Users\LENOVO\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\xml\3emeetud2.png"</Photo>
+	<Nom>ahlem selmi</Nom>
+	<Id>11658978</Id>
+	<Description>Étudiant en 2ème année IDSD, passionné par la transformation des données en solutions concrètes. Je m’oriente vers les métiers de la data science et de l’ingénierie décisionnelle.</Description>
+	<Niveau>2</Niveau>
+	<Moyen>11.12</Moyen>
+	<Notes>
+		<Note>
+			<Matiere>Heureustique et métaheuristique</Matiere>
+			<Valeur>10.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>tatistiques non paramétriques</Matiere>
+			<Valeur>12</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Machine Learning </Matiere>
+			<Valeur>8</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Data Wrangling</Matiere>
+			<Valeur>11.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Méthodologie et conception orientée objet</Matiere>
+			<Valeur>9.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Base de données NoSQL</Matiere>
+			<Valeur>13.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Traitement d'images et de vidéos </Matiere>
+			<Valeur>10.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Fondements de la sécurité </Matiere>
+			<Valeur>7.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>JAVA avancé </Matiere>
+		</Note>
+		<Note>
+			<Matiere>Développement Web dynamique </Matiere>
+			<Valeur>12.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Scrum et Leadership</Matiere>
+			<Valeur>13.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Certification TOEIC B2.1</Matiere>
+			<Valeur>11.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Technique de communication et préparation au Delf Pro 1</Matiere>
+			<Valeur>13</Valeur>
+		</Note>
+	</Notes>
+</Etudiant>

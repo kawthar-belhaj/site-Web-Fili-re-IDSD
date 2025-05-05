@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style22.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo />
+      <nom><label>Nom :</label> Oussema Rekik</nom>
+      <id><label>ID :</label> 14567828</id>
+      <niveau><label>Niveau :</label> 2</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Étudiant en 2ème année d’ingénierie des données et systèmes décisionnels, je développe des compétences solides en science des données, intelligence artificielle et outils d’aide à la décision.</description>
+
+      <titre1>Informations générales :</titre1> 
+      <sexe><label>Sexe :</label> masculin</sexe>
+      <cin><label>CIN :</label> 01457811</cin>
+      <nationalite><label>Nationalité :</label> Tunisien</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Tunis</villenaissance>
+
+      <titre2>Informations de localisation :</titre2> 
+      <ville><label>Ville :</label> Manouba</ville>
+      <adresse><label>Adresse Postale :</label> Tunis</adresse>
+      <codepostal><label>Code Postal :</label> 4011</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> oussemarekik@gmail.com</email>
+      <telephone><label>Téléphone :</label> 25489789</telephone>
+      <moyenne><label>Moyenne :</label> 13.63</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Heureustique et métaheuristique</td><td>12.5</td></tr>
+        <tr><td>Statistiques non paramétriques</td><td>14</td></tr>
+        <tr><td>Machine Learning</td><td>03</td></tr>
+        <tr><td>Data Wrangling</td><td>9</td></tr>
+        <tr><td>Méthodologie et conception orientée objet</td><td>15.75</td></tr>
+        <tr><td>Base de données NoSQL</td><td>14</td></tr>
+        <tr><td>Traitement d'images et de vidéos</td><td>15.5</td></tr>
+        <tr><td>Fondements de la sécurité</td><td>13.25</td></tr>
+        <tr><td>JAVA avancé</td><td>7.5</td></tr>
+        <tr><td>Développement Web dynamique</td><td>16.5</td></tr>
+        <tr><td>Scrum et Leadership</td><td>13</td></tr>
+        <tr><td>Certification TOEIC B2.1</td><td>15</td></tr>
+        <tr><td>Technique de communication et préparation au Delf B2.1</td><td>13</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

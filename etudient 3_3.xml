@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Etudiant SYSTEM "etudiant.dtd">
+<Etudiant>
+	<Photo type="image/png">"C:\Users\LENOVO\OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique\Bureau\xml\3emeetud3.png"</Photo>
+	<Nom>aslem khalfaoui</Nom>
+	<Id>11558288</Id>
+	<Description>En 3ème année IDSD, je suis passionné par les technologies de l’IA et de la data. Mon objectif : transformer des données complexes en leviers d’innovation stratégique.</Description>
+	<Niveau>3</Niveau>
+	<Moyen>12.52</Moyen>
+	<Notes>
+		<Note>
+			<Matiere>Statistique décisionnelle et ré-échantillonnage</Matiere>
+			<Valeur>13.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse Multivariée</Matiere>
+			<Valeur>10</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Modèles statistiques dynamiques à variables cachées </Matiere>
+			<Valeur>9.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Test et validation logiciel</Matiere>
+			<Valeur>13.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse de données en temps réel</Matiere>
+			<Valeur>11.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Cybersécurité et BlockchainL</Matiere>
+			<Valeur>10.75</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Architecture et programmation parallèle </Matiere>
+			<Valeur>14.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Spark et préparation à la certification au Big data  </Matiere>
+			<Valeur>13.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere> MLOps </Matiere>
+            <Valeur>12.24</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Analyse et fouille de données </Matiere>
+			<Valeur>12.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Atelier avancé SD</Matiere>
+			<Valeur>11.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Entrepeneuriat et Business Model</Matiere>
+			<Valeur>12.25</Valeur>
+		</Note>
+		<Note>
+			<Matiere> Certification TOEIC C1</Matiere>
+			<Valeur>15</Valeur>
+		</Note>
+        <Note>
+			<Matiere> Technique de communication professionnelle</Matiere>
+			<Valeur>15.75</Valeur>
+		</Note>
+
+	</Notes>
+</Etudiant>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style32.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+     <photo />
+      <nom><label>Nom :</label> Jana Yousfi</nom>
+      <id><label>ID :</label> 11658912</id>
+      <niveau><label>Niveau :</label> 3</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Étudiant en 3ème année IDSD, je développe des solutions data-driven en combinant l’algorithmique, les bases de données, le cloud et les techniques d’aide à la décision.</description>
+
+      <titre1>Informations générales :</titre1>
+      <sexe><label>Sexe :</label> Féminin</sexe> 
+      <cin><label>CIN :</label> 01564895</cin> <!-- CIN fictif à remplacer -->
+      <nationalite><label>Nationalité :</label> Tunisienne</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Sfax</villenaissance>
+
+      <titre2>Informations de localisation :</titre2>
+      <ville><label>Ville :</label> Sfax</ville>
+      <adresse><label>Adresse Postale :</label> Sfax</adresse>
+      <codepostal><label>Code Postal :</label> 3000</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> jana.yousfi@gmail.com</email> <!-- Email fictif ajouté -->
+      <telephone><label>Téléphone :</label> 50002560</telephone> <!-- Téléphone fictif ajouté -->
+      <moyenne><label>Moyenne :</label> 15.71</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Statistique décisionnelle et ré-échantillonnage</td><td>17.25</td></tr>
+        <tr><td>Analyse Multivariée</td><td>13</td></tr>
+        <tr><td>Modèles statistiques dynamiques à variables cachées</td><td>12.5</td></tr>
+        <tr><td>Test et validation logiciel</td><td>14.25</td></tr>
+        <tr><td>Analyse de données en temps réel</td><td>18.75</td></tr>
+        <tr><td>Cybersécurité et Blockchain</td><td>12.75</td></tr>
+        <tr><td>Architecture et programmation parallèle</td><td>14.5</td></tr>
+        <tr><td>Spark et préparation à la certification au Big Data</td><td>15.25</td></tr>
+        <tr><td>MLOps</td><td>15.24</td></tr>
+        <tr><td>Analyse et fouille de données</td><td>12.5</td></tr>
+        <tr><td>Atelier avancé SD</td><td>11</td></tr>
+        <tr><td>Entrepeneuriat et Business Model</td><td>14.25</td></tr>
+        <tr><td>Certification TOEIC C1</td><td>18</td></tr>
+        <tr><td>Technique de communication professionnelle</td><td>15.75</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

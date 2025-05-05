@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Langue définie comme français -->
+<head>
+    <meta charset="UTF-8"> <!-- Encodage en UTF-8 -->
+    <title>Tableau1</title> <!-- Titre de l’onglet -->
+
+    <style>
+        /* Style du fond et de la police */
+        body {
+            background-color: #f4f7f6;
+            font-family: Tahoma, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* En-tête centrée, avec fond orange et texte blanc */
+        .header {
+            text-align: center;
+            background-color: #dc8827;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+        }
+
+        /* Boîte principale contenant la table */
+        .etudiant-box {
+            background-color: #ffffff;
+            width: 70%;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Titre de section avec style élégant */
+        .section-title {
+            text-align: center;
+            background-color: #d0beb0;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            font-size: 20px;
+            box-shadow: 0 0 8px rgba(255, 183, 77, 0.5);
+        }
+
+        /* Style de la table */
+        table {
+            width: 100%;
+            border-collapse: collapse; /* supprime les espaces entre cellules */
+        }
+
+        /* Cellules de la table */
+        td {
+            border: 2px solid #ddd;
+            padding: 10px;
+            text-align: center;
+            background-color: #fafafa;
+            transition: background-color 0.3s;
+        }
+
+        /* Ligne d'en-tête (moyennes) */
+        tr:first-child td {
+            background-color: #eceae1;
+            font-weight: bold;
+        }
+
+        /* Style des images des étudiants */
+        img {
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* Animation au survol des images */
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(255, 183, 77, 0.6);
+            cursor: pointer;
+        }
+
+        /* Conteneur des boutons */
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        /* Style des boutons */
+        .btn {
+            background-color: #dc8827;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 0 15px;
+            transition: background-color 0.3s;
+        }
+
+        /* Changement de couleur au survol */
+        .btn:hover {
+            background-color: #e2cf84;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête principale -->
+    <div class="header">
+        <h1>Ingénierie des Données et Systèmes Décisionnels</h1>
+    </div>
+
+    <!-- Section contenant la liste des étudiants -->
+    <div class="etudiant-box">
+        <div class="section-title">
+            <h2>Étudiants de 1ère Année</h2>
+        </div>
+
+        <!-- Tableau des étudiants -->
+        <table>
+            <tr>
+                <!-- Lien vers un fichier XML, chaque image représente un étudiant -->
+                <td>
+                    <a href="etud11xmlcss.xml">
+                        <img src="1ereetu.png" alt="1ère étudient" width="200px">
+                    </a>
+                </td>
+                <td>
+                    <a href="etud12xmlcss.xml">
+                        <img src="2emeetud.png" alt="2ème étudient" width="200px">
+                    </a>
+                </td>
+                <td>
+                    <a href="etud13xmlcsss.xml"> <!-- Attention ici : il y a un "s" en trop dans le nom de fichier -->
+                        <img src="3emeetud.png" alt="3ème étudient" width="200px">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <!-- Moyennes des étudiants -->
+                <td>15.46</td>
+                <td>10.25</td>
+                <td>12.86</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Boutons de navigation -->
+    <div class="button-container">
+        <button class="btn" onclick="window.location.href='ex.html';">Afficher les éliminés</button>
+        <button class="btn" onclick="window.location.href='ex2.html';">Voir le classement</button>
+    </div>
+
+    <!-- Bouton pour revenir à la page d'accueil -->
+    <button type="button" class="home" onclick="window.location.href='projet1 (1).html';">Retour à la page d'accueil</button>
+
+</body>
+</html>

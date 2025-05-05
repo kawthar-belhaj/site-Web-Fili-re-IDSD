@@ -1,0 +1,54 @@
+<!ELEMENT Etudiant (
+  Photo,
+  Nom,
+  Id,
+  Niveau,
+  filière,
+  département,
+  Description,
+  information,
+  nompre,
+  sexe,
+  cin,
+  natio,
+  ville_naiss,
+  info,
+  ville,
+  adresse,
+  code,
+  contact,
+  email,
+  tel,
+  Moyen,
+  Notes
+)>
+
+<!ELEMENT Photo (#PCDATA)>
+<!ATTLIST Photo type CDATA #REQUIRED>
+
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Id (#PCDATA)>
+<!ELEMENT Niveau (#PCDATA)>
+<!ELEMENT filière (#PCDATA)>
+<!ELEMENT département (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT information (#PCDATA)>
+<!ELEMENT nompre (#PCDATA)>
+<!ELEMENT sexe (#PCDATA)>
+<!ELEMENT cin (#PCDATA)>
+<!ELEMENT natio (#PCDATA)>
+<!ELEMENT ville_naiss (#PCDATA)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT Moyen (#PCDATA)>
+
+<!ELEMENT Notes (Note*)>
+
+<!ELEMENT Note (Matiere, Valeur)>
+<!ELEMENT Matiere (#PCDATA)>
+<!ELEMENT Valeur (#PCDATA)>

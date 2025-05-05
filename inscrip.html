@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Page d'inscription</title>
+<meta charset="UTF-8">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 10px;
+    padding: 45px;
+    background-color: #fff5ee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.date-f {
+    display: flex;
+    gap: 10px;
+}
+.date-fi {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    width: 95%;
+    margin: auto;
+    background: #ffe6cc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    font-weight: bold;
+}
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+button[type="button"] {
+    background-color: #cccccc;  /* Couleur gris pour le bouton Annuler */
+    width: 100%;
+    margin-top: 10px;
+}
+button[type="button"].home {
+    background-color: #4CAF50;  /* Couleur verte pour le bouton Retour à l'accueil */
+    width: 100%;
+    margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<h2>Formulaire d'inscription étudiants</h2>
+<p>Remplissez soigneusement le formulaire d'inscription</p>
+<form action="#" method="post">
+
+    <legend>Informations Personnelles</legend>
+    <br> <!-- Espace entre "Informations Personnelles" et les champs suivants -->
+    <label for="nom">Nom:</label><br>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="prenom">Prénom:</label><br>
+    <input type="text" id="prenom" name="prenom" required><br><br>
+    <h3>Data de naissance</h3>
+    <div class="date-container">
+        <div class="date-f">
+            <div class="date-fi">
+                <label for="jour">Jour:</label>
+                <select id="jour" name="jour" required>
+                    <option value="">Sélectionnez le jour</option>
+                    <option value ="1">1</option>
+				    <option value ="2">2</option>
+				    <option value ="3">3 </option>
+				    <option value ="4">4</option>
+				    <option value ="5">5</option>
+				    <option value ="6">6 </option>
+				    <option value ="7">7</option>
+				    <option value ="8">8</option>
+				    <option value ="9">9</option>
+				    <option value ="10">10</option>
+				    <option value ="11">11</option>
+				    <option value ="12">12 </option>
+				    <option value ="13">13</option>
+				    <option value ="14">14</option>
+				    <option value ="15">15</option>
+				    <option value ="16">16</option>
+				    <option value ="17">17</option>
+				    <option value ="18">18</option>
+				    <option value ="19">19</option>
+				    <option value ="20">20</option>
+				    <option value ="21">21 </option>
+				    <option value ="22">22</option>
+				    <option value ="23">23</option>
+				    <option value ="24">24 </option>
+				    <option value ="25">25</option>
+				    <option value ="26">26</option>
+				    <option value ="27">27 </option>
+				    <option value ="28">28</option>
+				    <option value ="29">29</option>
+				    <option value ="30">30</option>
+                    <!-- Ajoutez d'autres options pour les jours -->
+                </select>
+            </div>
+            <div class="date-fi">
+                <label for="mois">Mois:</label>
+                <select id="mois" name="mois" required>
+                    <option value="">Sélectionnez le mois</option>
+                    <option value ="1">1</option>
+                    <option value ="2">2</option>
+                    <option value ="3">3 </option>
+                    <option value ="4">4</option>
+                    <option value ="5">5</option>
+                    <option value ="6">6 </option>
+                    <option value ="7">7</option>
+                    <option value ="8">8</option>
+                    <option value ="9">9</option>
+                    <option value ="10">10</option>
+                    <option value ="11">11</option>
+                    <option value ="12">12 </option>
+                    <!-- Ajoutez d'autres options pour les mois -->
+                </select>
+            </div>
+            <div class="date-fi">
+                <label for="annee">Année:</label>
+                <select id="annee" name="annee" required>
+                    <option value="">Sélectionnez l'année</option>
+                    <option value ="1999">1999</option>
+                    <option value ="2000">2000</option>
+                    <option value ="2001">2001</option>
+                    <option value ="2002">2002</option>
+                    <option value ="2003">2003</option>
+                    <option value ="2004">2004</option>
+                    <option value ="2005">2005</option>
+                    <option value ="2006">2006</option>
+                    <option value ="2007">2007</option>
+                    <option value ="2008">2008</option>
+                    <option value ="2009">2009</option>
+                    <!-- Ajoutez d'autres options pour les années -->
+                </select>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <label for="sexe">Sexe:</label><br>
+    <div>
+        <input type="radio" id="homme" name="sexe" value="H">
+        <label for="homme">Homme</label>
+    </div>
+    <div>
+        <input type="radio" id="femme" name="sexe" value="femme" checked>
+        <label for="femme">Femme</label>
+    </div><br> <!-- Espace ajouté entre "Homme" et "Femme" -->
+
+    <label for="ville">Ville:</label><br>
+    <textarea id="ville" name="ville" rows="2" cols="40"></textarea><br><br>
+
+    <div class="specialite">
+        <label for="specialite">Spécialité:</label><br>
+        <select id="specialite" name="specialite" required>
+            <option value="">Sélectionnez une spécialité</option>
+            <option value="génie informatique industriel">Génie Informatique Industriel</option>
+            <option value="génie télécommunication">Génie Télécommunication</option>
+            <option value="génie des systèmes électroniques">Génie des Systèmes Électroniques</option>
+            <option value="ingénierie des données et systèmes décisionnels">Ingénierie des Données et Systèmes Décisionnels</option>
+        </select>
+    </div>
+
+    <label for="email">E-mail:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">S'inscrire</button>
+    <button type="button" onclick="window.history.back();">Annuler</button> <!-- Annuler ne soumet plus le formulaire -->
+    <button type="button" class="home" onclick="window.location.href='projet1 (1).html';">Retour à la page d'accueil</button> <!-- Retour à la page d'accueil -->
+</form>
+</body>
+</html>
+

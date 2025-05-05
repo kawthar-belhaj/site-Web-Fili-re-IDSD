@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style31.css"?>
+<page>
+  <header>Profil Étudiant</header>
+
+  <etudiant>
+    <information_personnel>
+      <photo />
+      <nom><label>Nom :</label> Khalil Makni</nom>
+      <id><label>ID :</label> 14567828</id>
+      <niveau><label>Niveau :</label> 3</niveau>
+      <filiere><label>Filière :</label> Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filiere>
+      <departement><label>Département :</label> Mathématique et Informatique Décisionnelle</departement>
+      <description><label>Description :</label> Étudiant en 3ème année d’ingénierie des données et systèmes décisionnels, je maîtrise les outils d’analyse avancée, de modélisation statistique et d’intelligence artificielle pour répondre aux enjeux de la transformation digitale.</description>
+
+      <titre1>Informations générales :</titre1>
+      <sexe><label>Sexe :</label> Masculin</sexe> 
+      <cin><label>CIN :</label> 11235689</cin> <!-- Valeur manquante, à compléter -->
+      <nationalite><label>Nationalité :</label> Tunisien</nationalite>
+      <villenaissance><label>Ville de naissance :</label> Tunis</villenaissance>
+
+      <titre2>Informations de localisation :</titre2>
+      <ville><label>Ville :</label> Tunis</ville>
+      <adresse><label>Adresse Postale :</label> Tunis</adresse>
+      <codepostal><label>Code Postal :</label> 4011</codepostal>
+
+      <titre3>Informations de contact :</titre3>
+      <email><label>Email :</label> khalil.makni@gmail.com</email> <!-- Email fictif ajouté -->
+      <telephone><label>Téléphone :</label> 20562000</telephone> <!-- Téléphone fictif ajouté -->
+      <moyenne><label>Moyenne :</label> 14.25</moyenne>
+    </information_personnel>
+
+    <notes>
+      <table>
+        <tr>
+          <th>Matière</th>
+          <th>Note</th>
+        </tr>
+        <tr><td>Statistique décisionnelle et ré-échantillonnage</td><td>13.25</td></tr>
+        <tr><td>Analyse Multivariée</td><td>12</td></tr>
+        <tr><td>Modèles statistiques dynamiques à variables cachées</td><td>15.5</td></tr>
+        <tr><td>Test et validation logiciel</td><td>13.25</td></tr>
+        <tr><td>Analyse de données en temps réel</td><td>18.75</td></tr>
+        <tr><td>Cybersécurité et Blockchain</td><td>11.75</td></tr>
+        <tr><td>Architecture et programmation parallèle</td><td>13.5</td></tr>
+        <tr><td>Spark et préparation à la certification au Big Data</td><td>12.25</td></tr>
+        <tr><td>MLOps</td><td>15</td></tr>
+        <tr><td>Analyse et fouille de données</td><td>16.5</td></tr>
+        <tr><td>Atelier avancé SD</td><td>8</td></tr>
+        <tr><td>Entrepeneuriat et Business Model</td><td>11.25</td></tr>
+        <tr><td>Certification TOEIC C1</td><td>13</td></tr>
+        <tr><td>Technique de communication professionnelle</td><td>14.75</td></tr>
+      </table>
+    </notes>
+  </etudiant>
+</page>

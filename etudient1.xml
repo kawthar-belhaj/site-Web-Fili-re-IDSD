@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Etudiant SYSTEM "etudiant.dtd">
+<Etudiant>
+	<Photo type="image/png">C:/Users/LENOVO/OneDrive - Ministere de l'Enseignement Superieur et de la Recherche Scientifique/Bureau/xml/1ereetu.png</Photo>
+	<Nom>Ahmed Ben salem</Nom>
+	<Id>12587945</Id>
+	<Niveau>1</Niveau>
+	<filière>Filière : Diplôme National d'Ingénieur en Ingénierie des Données et Systèmes Décisionnels</filière>
+	<département> Département : Mathématique et Informatique Décisionnelle </département>
+	<Description>Étudiant en ingénierie des données, orienté vers l’innovation, l’analyse intelligente et le développement de solutions data-driven à fort impact.</Description>
+	<information>Informations générales</information>
+	<nompre>Nom &amp; Prénom : Ahmed Ben salem</nompre>
+	<sexe>Sexe : masculin</sexe>
+	<cin>CIN / Passport : 114568921</cin>
+	<natio>Nationalité : Tunisien</natio>
+	<ville_naiss>Ville de naissance : Sfax</ville_naiss>
+	<info>Informations de localisation</info>
+	<ville>Ville : Sfax</ville>
+	<adresse>Adresse Postale : Route Mahdia Km 6.5</adresse>
+	<code>Code postal : 3011</code>
+	<contact>Informations de contact</contact>
+	<email>Email : belhtouta@gmail.com</email>
+	<tel>Téléphone : 91546852</tel>
+
+	<Moyen>15.46</Moyen>
+
+	<Notes>
+		<Note>
+			<Matiere>Mathématiques de l’ingénieur</Matiere>
+			<Valeur>15.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Statistiques descriptives et inférentielles</Matiere>
+			<Valeur>17</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Mesures et probabilités</Matiere>
+			<Valeur>13</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Théorie des graphes</Matiere>
+			<Valeur>16</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Calcul différentiel et optimisation</Matiere>
+			<Valeur>17</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Algorithmique et programmation C</Matiere>
+			<Valeur>14</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Commande et administration Linux</Matiere>
+			<Valeur>15</Valeur>
+		</Note>
+		<Note>
+			<Matiere>SGBD</Matiere>
+			<Valeur>16</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Réseaux informatiques et TCP/IP</Matiere>
+			<Valeur>17.5</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Atelier Python</Matiere>
+			<Valeur>18</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Droit du travail et Sécurité sociale</Matiere>
+			<Valeur>13</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Certification TOEIC B1.1</Matiere>
+			<Valeur>17</Valeur>
+		</Note>
+		<Note>
+			<Matiere>Technique de communication et préparation au Delf B2.1</Matiere>
+			<Valeur>15</Valeur>
+		</Note>
+	</Notes>
+</Etudiant>
